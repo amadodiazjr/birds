@@ -84,6 +84,7 @@
 		E08F3EAA20F3AF95009CB6F3 /* Birds */ = {
 			isa = PBXGroup;
 			children = (
+				E0A56C00217E36F000EE4102 /* Levels */,
 				E02224B3217DA44A00D54404 /* Extensions */,
 				E0AF402220F7BEB7008622FF /* CustomNodes */,
 				E0EB258920F66F1200D44FBE /* TileSets */,
@@ -108,7 +109,6 @@
 		E092A7D720F66E3100B8CEDE /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				E08F3EAD20F3AF95009CB6F3 /* GameScene_1.sks */,
 				E08F3EB120F3AF95009CB6F3 /* GameScene.swift */,
 				E0A56BFA217E2D9300EE4102 /* MenuScene.swift */,
 				E0A56BFC217E2DA500EE4102 /* LevelScene.swift */,
@@ -132,6 +132,14 @@
 				E00376E52100FA700033A06A /* Configuration.swift */,
 			);
 			name = Template;
+			sourceTree = "<group>";
+		};
+		E0A56C00217E36F000EE4102 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				E08F3EAD20F3AF95009CB6F3 /* GameScene_1.sks */,
+			);
+			name = Levels;
 			sourceTree = "<group>";
 		};
 		E0AF402220F7BEB7008622FF /* CustomNodes */ = {
