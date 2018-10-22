@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E00376E62100FA700033A06A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00376E52100FA700033A06A /* Configuration.swift */; };
+		E02224B5217DA46300D54404 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02224B4217DA46300D54404 /* SKNode+Extensions.swift */; };
 		E08F3EAC20F3AF95009CB6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F3EAB20F3AF95009CB6F3 /* AppDelegate.swift */; };
 		E08F3EAE20F3AF95009CB6F3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E08F3EAD20F3AF95009CB6F3 /* GameScene.sks */; };
 		E08F3EB220F3AF95009CB6F3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F3EB120F3AF95009CB6F3 /* GameScene.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		E00376E52100FA700033A06A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		E02224B4217DA46300D54404 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
 		E08F3EA820F3AF95009CB6F3 /* Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08F3EAB20F3AF95009CB6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08F3EAD20F3AF95009CB6F3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E02224B3217DA44A00D54404 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E02224B4217DA46300D54404 /* SKNode+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		E08F3E9F20F3AF95009CB6F3 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		E08F3EAA20F3AF95009CB6F3 /* Birds */ = {
 			isa = PBXGroup;
 			children = (
+				E02224B3217DA44A00D54404 /* Extensions */,
 				E0AF402220F7BEB7008622FF /* CustomNodes */,
 				E0EB258920F66F1200D44FBE /* TileSets */,
 				E092A7D720F66E3100B8CEDE /* Scenes */,
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08F3EB220F3AF95009CB6F3 /* GameScene.swift in Sources */,
+				E02224B5217DA46300D54404 /* SKNode+Extensions.swift in Sources */,
 				E0910957217648D2003F6475 /* Block.swift in Sources */,
 				E00376E62100FA700033A06A /* Configuration.swift in Sources */,
 				E08F3EB420F3AF95009CB6F3 /* GameViewController.swift in Sources */,
