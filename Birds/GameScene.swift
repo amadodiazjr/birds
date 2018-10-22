@@ -14,6 +14,8 @@ enum RoundState {
 }
 
 class GameScene: SKScene {
+    var sceneManagerDelegate: SceneManagerDelegate?
+
     var mapNode = SKTileMapNode()
 
     let gameCamera = GameCamera()
