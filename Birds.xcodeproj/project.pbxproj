@@ -25,6 +25,7 @@
 		E0A56BFD217E2DA500EE4102 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A56BFC217E2DA500EE4102 /* LevelScene.swift */; };
 		E0A56BFF217E30D600EE4102 /* SpriteKitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A56BFE217E30D500EE4102 /* SpriteKitButton.swift */; };
 		E0AF402420F7BEDF008622FF /* GameCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF402320F7BEDF008622FF /* GameCamera.swift */; };
+		E0B288872190AC3400423D62 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B288862190AC3400423D62 /* Enemy.swift */; };
 		E0C3517C21818C65002FA9DB /* GameScene_2.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0C3517B21818C65002FA9DB /* GameScene_2.sks */; };
 		E0DB117521346219001EFDB7 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB117421346219001EFDB7 /* Bird.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		E0A56BFC217E2DA500EE4102 /* LevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
 		E0A56BFE217E30D500EE4102 /* SpriteKitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteKitButton.swift; sourceTree = "<group>"; };
 		E0AF402320F7BEDF008622FF /* GameCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCamera.swift; sourceTree = "<group>"; };
+		E0B288862190AC3400423D62 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		E0C3517B21818C65002FA9DB /* GameScene_2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene_2.sks; sourceTree = "<group>"; };
 		E0DB117421346219001EFDB7 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +171,7 @@
 				E0AF402320F7BEDF008622FF /* GameCamera.swift */,
 				E0DB117421346219001EFDB7 /* Bird.swift */,
 				E0910956217648D2003F6475 /* Block.swift */,
+				E0B288862190AC3400423D62 /* Enemy.swift */,
 			);
 			name = CustomNodes;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B288872190AC3400423D62 /* Enemy.swift in Sources */,
 				E084234A21881810004265B8 /* LevelData.swift in Sources */,
 				E08F3EB220F3AF95009CB6F3 /* GameScene.swift in Sources */,
 				E02224B5217DA46300D54404 /* SKNode+Extensions.swift in Sources */,
